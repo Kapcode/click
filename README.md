@@ -1,5 +1,7 @@
 Click is command line auto clicker with a built in safety mode to prevent user error causing complete lockups. It is very versatile, with many options to get the desired behavior.  
 
+Click uses the JNativeHook library to register mouse location and keys pressed for -safety mode.
+
 OPTIONS
 *all time is measured in milliseconds.
 
