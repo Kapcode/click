@@ -38,7 +38,7 @@ OPTIONS
 -safety 1920,1080	| stop if cursor ever goes to cords… bottom right of a 1080p screen 
 (might not be reachable depending on OS behavior with edges of screen)
 
--safety alt,ctrl,0,0,alt	| stop if alt is pressed, stop if ctrl is pressed, stop if cursor goes to 0,0 ,stop if F1 is pressed. Multiple keys are not shortcuts… they are extra safety keys. Its a safety, not a hotkey!
+-safety alt,ctrl,0,0	| stop if alt is pressed, stop if ctrl is pressed, stop if cursor goes to 0,0. Multiple keys are not shortcuts… they are extra safety keys. Its a safety, not a hotkey!
 
 -safety is made to prevent a user from locking up there computer to the point they would have to power it off with the power button. They can meet the safety condition(s) to terminate the process.
 
@@ -126,10 +126,3 @@ Left
 Down
 Right
 Space
-
-
-RELEASE:
-download jar file, and run in command line. 
-use: java -jar click arguments
-
-
