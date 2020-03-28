@@ -22,6 +22,7 @@ public class Click implements NativeKeyListener,NativeMouseMotionListener{
 			startDelay = 0,
 			holdTime = 0,
 			afterClickDelay=0,
+	//test comment
 			terminationDelay = 0;
 	Point clickLocation = null;//if null, don't move
 	boolean safetyEnabled = true, press = true,release = true;
