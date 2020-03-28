@@ -1,4 +1,3 @@
-package click;
 
 import java.awt.AWTException;
 import java.awt.Point;
